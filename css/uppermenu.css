@@ -1,11 +1,28 @@
 .uppermenu{
     background-color: #FCDBE6;
     width: 100%;
-    height: 100%;
+    height: 90px;
     border-radius: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 40px;
     font-family:'Noto Serif KR', serif;
+    border-bottom: 30px;
+    
+}
+
+.uppermenu_column i{
+font-size: 28px;
+color: rgb(224, 61, 88);
+}
+
+.uppermenu_column{
+    margin-bottom: 9px;
+    margin-left: 8px;
+}
+
+.uppermenu-list{
+    font-size: 26px;
+    margin-top: 4px;
 }

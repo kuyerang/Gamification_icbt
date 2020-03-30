@@ -3,5 +3,7 @@
     width: 50%;
     height: 50%;
     font-family:'Noto Serif KR', serif;
+    display: flex;
+    
 
 }
