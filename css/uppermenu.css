@@ -1,0 +1,11 @@
+.uppermenu{
+    background-color: #FCDBE6;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    font-family:'Noto Serif KR', serif;
+}
