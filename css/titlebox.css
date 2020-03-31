@@ -9,6 +9,7 @@
     font-size: 25px;
     font-weight: bolder;
     text-align: center;
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.2);
 
 
 
@@ -18,20 +19,25 @@
 .explainbox{
     border-radius: 40px;
     background-color: rgba(211, 211, 211, 0.692);
-    padding: 20px;
+    padding: 30px;
     text-align: left;
+    font-size: 18px;
+    margin-top: 40px;
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.2);
 
 }
 
 .medititlebox{
     border-radius: 40px;
     border: solid 6px rgba(211, 211, 211, 0.692);
-    padding: 10px;
+    padding: 20px;
     width: 250px;
     height: 50px;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
 
 
 }
