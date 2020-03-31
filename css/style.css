@@ -2,7 +2,9 @@
 @import"uppermenu.css";
 @import"titlebox.css";
 @import url('https://fonts.googleapis.com/css?family=Stylish&display=swap');
-
+@import"article.css";
+@import"footer.css";
+@import"section.css";
 
 
 body{
@@ -10,5 +12,19 @@ body{
     padding:10px 20px;
     color:#020202;
     font-family: 'Stylish', sans-serif;
+    height: 800px;
 }
-   
+
+
+*{
+    box-sizing: border-box;
+}
+
+.main_img{
+    right: 0px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 50px;
+    width: 690px;
+}
+    
