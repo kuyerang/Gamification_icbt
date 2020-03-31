@@ -9,20 +9,41 @@
     margin-bottom: 40px;
     font-family:'Noto Serif KR', serif;
     border-bottom: 30px;
+    font-family: 'Stylish', sans-serif;
+    
     
 }
 
+
+.uppermenu_column{
+    margin-bottom: 8px;
+    margin-left: 6px;
+    margin-top: 5px;
+    list-style-type: none;
+}
 .uppermenu_column i{
 font-size: 28px;
 color: rgb(224, 61, 88);
 }
 
-.uppermenu_column{
-    margin-bottom: 9px;
+.uppermenu_column-list{
     margin-left: 8px;
+    display: flex;
+    list-style-type: none;
+    
+
+
 }
 
 .uppermenu-list{
     font-size: 26px;
-    margin-top: 4px;
+    
+}
+
+.titlebox{
+display: flex;
+flex-direction: column;
+margin-top: 10px;
+margin-right: 10px;
+justify-content: center;
 }

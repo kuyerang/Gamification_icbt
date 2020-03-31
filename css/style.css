@@ -1,9 +1,14 @@
 @import"reset.css";
 @import"uppermenu.css";
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR:400,600,700&display=swap');
-@import "uppermenu_column-list.css";
+@import"titlebox.css";
+@import url('https://fonts.googleapis.com/css?family=Stylish&display=swap');
+
+
+
 body{
-    background-color: white;
-    padding: 10px 20px;
-    color: #020202;
+    background-color:white;
+    padding:10px 20px;
+    color:#020202;
+    font-family: 'Stylish', sans-serif;
 }
+   
