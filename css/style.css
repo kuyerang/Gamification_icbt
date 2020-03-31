@@ -31,4 +31,10 @@ body{
 
 .a.no-uline{ 
     text-decoration:none }
+
+    .storyline{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     
