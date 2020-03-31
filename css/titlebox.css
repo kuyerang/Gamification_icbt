@@ -9,7 +9,6 @@
     font-size: 25px;
     font-weight: bolder;
     text-align: center;
-    margin-top: 60px;
     box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.2);
 
 
@@ -39,12 +38,4 @@
     text-align: center;
     box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.2);
     margin-top: 40px;
-
-
-}
-
-
-.titlebox_list-column{
-    display: flex;
-    justify-content: space-between;
 }

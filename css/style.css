@@ -28,13 +28,3 @@ body{
     margin-top: 50px;
     width: 690px;
 }
-
-.a.no-uline{ 
-    text-decoration:none }
-
-    .storyline{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
