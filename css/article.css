@@ -13,6 +13,7 @@
     text-align: center;
     padding: 10px;
     border-radius: 30px;
+    animation: float 4s linear infinite forwards;
 }
 
 .article_img{
@@ -25,6 +26,3 @@
     font-size: 28px;
 }
 
-.article_box-column i{
-   color: hsl(350, 71%, 54%)(168, 24, 48);
-}
