@@ -6,6 +6,7 @@
 @import"footer.css";
 @import"section.css";
 @import"nav.css";
+@import"mobile.css";
 
 
 a{
@@ -71,7 +72,8 @@ body{
 .main_img{
     right: 0px;
     margin-bottom: 50px;
-    width: 500px;
+   width: 90%;
+   height: 70%;
     margin-right: 80px;
  
 }
@@ -96,8 +98,8 @@ body{
 }
 
 .main_column1{
-    width: 600px;
-    height: 400px;
+    width: 120%;
+    height: 100%;
     background-color: #f7f7f79d;
     border-radius: 40px;
     box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),

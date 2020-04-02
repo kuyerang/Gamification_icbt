@@ -2,13 +2,12 @@
 .uppermenu{
     background-color: #FCDBE6;
     width: 100%;
-    height: 90px;
+    height: 15%;
     border-radius: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 40px;
-    font-family:'Noto Serif KR', serif;
     border-bottom: 30px;
     font-family: 'Stylish', sans-serif;
     padding: 14px 3px;
@@ -21,6 +20,7 @@
 
 .uppermenu_bigtitle{
     font-size: 28px;
+    
    
 }
 
@@ -28,13 +28,10 @@
     margin-bottom: 8px;
     margin-left: 6px;
     margin-top: 5px;
+  
+
     
     
-}
-.uppermenu_column i{
-font-size: 15px;
-color: rgb(224, 61, 88);
-padding: 6px;
 }
 
 .uppermenu_column-list{
@@ -53,8 +50,8 @@ padding: 6px;
    
 }
 .uppermenu_column-listbox{
-    width: 160px;
-    height: 40px;
+    width: 50%;
+    height: 50%;
     background-color:#f7f7f7;
     border-radius: 20px;
     margin-right: 20px;

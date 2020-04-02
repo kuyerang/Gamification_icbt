@@ -16,11 +16,7 @@
     animation: float 4s linear infinite forwards;
 }
 
-.article_img{
-  display: block;
-  right: 100px;
 
-}
 
 .article_box-column-title{
     font-size: 28px;

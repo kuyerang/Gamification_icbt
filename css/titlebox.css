@@ -26,7 +26,7 @@
     font-size: 18px;
     margin-top: 40px;
     box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.2);
-    
+   
     
 
 }
@@ -56,3 +56,14 @@
 
 }
 
+.titlebox_img{
+    width: 150px;
+    height: 200px;
+    transform: translateY(-130px) translateX(800px);
+    right: 0px;
+display: inline-block;}
+
+
+.exex{
+    transform: translateY(-100px);
+}
