@@ -8,6 +8,45 @@
 @import"nav.css";
 
 
+a{
+    text-decoration: none;
+}
+ul{
+    list-style:none;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(20px);
+      box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+        0 18px 36px -18px rgba(0, 0, 0, 0.3),
+        0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+    }
+    50% {
+        transform: translateY(10px);
+      box-shadow: 0 30px 60px -60px rgba(50, 50, 93, 0.25),
+        0 18px 36px -18px rgba(0, 0, 0, 0.3),
+        0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+    }
+    100% {
+        transform: translateY(20px);
+      box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+        0 18px 36px -18px rgba(0, 0, 0, 0.3),
+        0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+    }
+
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
 body{
     background-color:white;
     padding:10px 20px;
@@ -23,8 +62,45 @@ body{
 
 .main_img{
     right: 0px;
-    border-radius: 20px;
-    padding: 10px;
-    margin-top: 50px;
-    width: 690px;
+    margin-bottom: 50px;
+    width: 500px;
+    margin-right: 80px;
+ 
 }
+
+.main_column1:hover{
+   background-color: rgb(245, 202, 210);
+}
+
+ .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+
+
+.main_ex{
+    font-size: 18px;
+    text-align: center;
+    padding: 40px;
+}
+
+.main_column1{
+    width: 600px;
+    height: 400px;
+    background-color: #f7f7f79d;
+    border-radius: 40px;
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+    transform: translateX(30px);
+    animation: float 3s linear infinite forwards;
+    
+}
+
+
+  
+  main {
+    animation: fadeIn 0.5s ease-in-out;
+  }

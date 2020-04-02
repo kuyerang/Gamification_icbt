@@ -12,6 +12,8 @@
     border-bottom: 30px;
     font-family: 'Stylish', sans-serif;
     padding: 14px 3px;
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
   
 
 
@@ -20,31 +22,50 @@
     
 }
 
+
 .uppermenu_column{
     margin-bottom: 8px;
     margin-left: 6px;
     margin-top: 5px;
-    list-style-type: none;
+    
+    
 }
 .uppermenu_column i{
-font-size: 28px;
+font-size: 15px;
 color: rgb(224, 61, 88);
+padding: 6px;
 }
 
 .uppermenu_column-list{
     margin-left: 8px;
     display: flex;
-    list-style-type: none;
-    
-
+    justify-content: space-between;
+  
 
 }
 
-.uppermenu-list{
-    font-size: 26px;
+
+.uppermenu-smalltitle{
+    font-size: 18px;
+    text-align: center;
+   
+}
+.uppermenu_column-listbox{
+    width: 160px;
+    height: 40px;
+    background-color:#f7f7f7;
+    border-radius: 20px;
+    margin-right: 20px;
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3),
+    0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+    
     
 }
 
+.uppermenu_column-listbox:hover{
+    background-color: thistle;
+}
 .titlebox{
 display: flex;
 flex-direction: column;
