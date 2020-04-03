@@ -114,3 +114,7 @@ body{
   main {
     animation: fadeIn 0.5s ease-in-out;
   }
+
+  .movie{
+    margin-top: 40px;
+  }
